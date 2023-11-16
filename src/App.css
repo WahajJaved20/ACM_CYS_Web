@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding-left: 40% ;
+  text-align: center;
+  background-image: url("./assets/binary.jpeg"); /* Set the path to your custom wallpaper image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent; /* Set the background color to transparent for the container */
+  color: white; /* Text color for the container */
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.congratulations {
+  background-color: transparent; /* Set the background color to transparent for the text */
+}
+.flag-block {
+  background-color: #333; /* Background color for the flag block */
+  color: white; /* Text color for the flag block */
+  padding: 10px;
+}
+.bold-text {
+  font-weight: bold; /* Make the text bold */
+}
+.single-line {
+  white-space: nowrap; /* Display the text on a single line */
+  text-align: center; /* Center-align the text */
+  color:"white";
+}
+.header {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+.loginheader{
+  color:"white";
+}
+#welcome-container{
+  padding-left: -10%;
+}
